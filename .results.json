@@ -1,0 +1,309 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 13,
+    "passes": 4,
+    "pending": 0,
+    "failures": 9,
+    "start": "2023-12-16T19:27:43.505Z",
+    "end": "2023-12-16T19:27:44.098Z",
+    "duration": 593
+  },
+  "tests": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 7 to equal 1",
+        "showDiff": true,
+        "actual": "7",
+        "expected": "1",
+        "stack": "AssertionError: expected 7 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 8",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "8",
+        "stack": "AssertionError: expected 0 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 16 to equal 8",
+        "showDiff": true,
+        "actual": "16",
+        "expected": "8",
+        "stack": "AssertionError: expected 16 to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1848 to equal 264",
+        "showDiff": true,
+        "actual": "1848",
+        "expected": "264",
+        "stack": "AssertionError: expected 1848 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2112",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2112",
+        "stack": "AssertionError: expected 0 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 4224 to equal 2112",
+        "showDiff": true,
+        "actual": "4224",
+        "expected": "2112",
+        "stack": "AssertionError: expected 4224 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives customers a free sample",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2.56",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2.56",
+        "stack": "AssertionError: expected 0 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 25",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "25",
+        "stack": "AssertionError: expected 0 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 'cannot travel that far'",
+        "showDiff": true,
+        "actual": 0,
+        "expected": "cannot travel that far",
+        "stack": "AssertionError: expected 0 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 7 to equal 1",
+        "showDiff": true,
+        "actual": "7",
+        "expected": "1",
+        "stack": "AssertionError: expected 7 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 8",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "8",
+        "stack": "AssertionError: expected 0 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 16 to equal 8",
+        "showDiff": true,
+        "actual": "16",
+        "expected": "8",
+        "stack": "AssertionError: expected 16 to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1848 to equal 264",
+        "showDiff": true,
+        "actual": "1848",
+        "expected": "264",
+        "stack": "AssertionError: expected 1848 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2112",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2112",
+        "stack": "AssertionError: expected 0 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 4224 to equal 2112",
+        "showDiff": true,
+        "actual": "4224",
+        "expected": "2112",
+        "stack": "AssertionError: expected 4224 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2.56",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2.56",
+        "stack": "AssertionError: expected 0 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 25",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "25",
+        "stack": "AssertionError: expected 0 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 'cannot travel that far'",
+        "showDiff": true,
+        "actual": 0,
+        "expected": "cannot travel that far",
+        "stack": "AssertionError: expected 0 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives customers a free sample",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
